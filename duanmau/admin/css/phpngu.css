@@ -1,0 +1,67 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+body{background-color: #e4cca9;}
+.container{width: 1400px;margin: auto;background-color: #fff;height: 855px;}
+th{padding: 10px;}
+nav{width: 100%;background-color: #1281c8;height:50px; float: left;}
+nav ul li{display: inline-block; padding: 0 20px; line-height: 50px;}
+nav ul li a{text-decoration: none;color: #fff;}
+nav ul li:hover{background-color: #1281c8;}
+.nav-left{margin-left: 800px;}
+.lienhe{text-align: center; margin-top: 20px; color: #1281c8;}
+aside{width: 17%;float: left;background:rgb(219, 223, 228);height: 800px; margin-top: 10px;}
+aside button{text-align: left;padding-left: 30px;color: #051f4f;width: 100%;height: 50px;line-height: 50px;}
+aside button:hover{background-color: #c3d6fa;}
+article{width: 83%;float: left;background-color: #fff;height: 600px;}
+a{text-decoration: none;}
+a:hover{color: #ff0}
+table {vertical-align: middle;}
+table thead{background:lightsteelblue;}
+					/*TRANG CHỦ*/
+article .trangchu{width: 100%;}
+article .trangchu img{width: 90%;margin: 30px 5%;height: 450px;}
+article .trangchu h3, p{padding-left: 90px;margin-bottom: 5px;}
+					/*QUẢN TRỊ SLIDER*/
+article a button{width: 20%;height: 30px;background-color: #051f4f;border: 1px solid #c6e5f9; margin: 10px;color: #fff; text-align: center;}
+article .slide table{width: 95%;text-align: center;margin: 10px 2.5%;border-collapse: collapse;}
+article .slide table img{width: 200px;height: 70px;margin: 10px;}
+table a{color: #000;padding: 10px;}
+table a:hover{color: #16458c;}
+					/*QUẢN TRỊ TÀI KHOẢN*/
+article .taikhoan table{width: 98%;text-align: center;margin: 10px 1%;border-collapse: collapse;}
+article .taikhoan td{padding: 10px;}
+
+					/*QUẢN TRỊ DANH MỤC*/
+article .danhmuc table{width: 98%;text-align: center;margin: 10px 1%;border-collapse: collapse;}
+article .danhmuc td{padding: 20px;}
+.danhmuc{text-align: center;}
+
+
+					/*QUẢN TRỊ SẢN PHẨM*/
+article .sanpham table{width: 98%;text-align: center;margin: 10px 1%;border-collapse: collapse;}
+article .sanpham table img{width: 70px;height: 60px;margin: 5px;}
+.sanpham{text-align: center;}
+.sanpham td{padding: 10px}
+
+					/*QUẢN TRỊ COMMENTS*/
+article .comment table{width: 98%;text-align: center;margin: 10px 1%;border-collapse: collapse;}
+.title-bl{background: #051f4f; margin: 12px; padding: 15px;}
+.title-bl h3{font-size: 20px; color: #fff;}
+
+
+.wrap-themsp{float: left;}
+.text-sp-left{
+    float: left;
+    margin: 20px;
+    width: 500px;
+    margin-top: 30px;
+}
+.text-sp-left input{width: 100%;  height: 30px; margin-top:8px; }
+.text-sp-left input:focus{background:#e3eaf7;}
+.text-sp{
+	float: right; margin-top: 20px;
+	width: 600px;
+}
+.save{text-align: center; margin-top: 15px;}
+.save .luu{padding: 6px 55px; background: #051f4f; color:#fff;}
+
+.select{width: 100%;}
